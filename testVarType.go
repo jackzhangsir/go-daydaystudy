@@ -5,6 +5,8 @@ import (
 	"unsafe"
 )
 
+//可见性变量
+var B_TEST = "hijklmn"
 func main() {
 
 	var i uint32 = 9
