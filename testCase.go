@@ -12,6 +12,8 @@ func main() {
 		fmt.Println("成绩优秀")
 	case 100:
 		fmt.Println("成绩满分")
+	default:
+		fmt.Println("以上都不是")
 	}
 	
 }
