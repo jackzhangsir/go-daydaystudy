@@ -1,7 +1,10 @@
 package main
 
 //导入依赖包
-import "fmt"
+import (
+	"fmt"
+	"go-daydaystudy/sugar_demo"
+)
 
 
 //声明常亮和变量
@@ -26,7 +29,21 @@ func myfunc() {
 
 //主函数
 func main() {
-	myfunc()
-	fmt.Println("hello world")
+	//myfunc()
+	//fmt.Println("hello world")
+
+	//SerializeMap
+	//json_demo.SerializeMap()
+
+	//SerializeStruct
+	//json_demo.SerializeStruct()
+
+	//json_demo.DeserializeStruct()
+	//json_demo.DeserializeMap()
+
+	//
+	sugar_demo.Sugar("ab","cc" ,"dd")
+	sugar_demo.TypeJuge()
+
 	
 }

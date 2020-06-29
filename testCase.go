@@ -17,6 +17,8 @@ func main() {
 	//}
 
 
+
+
 	var a  interface{}
 	a = "nihao"
 	switch a.(type) {
