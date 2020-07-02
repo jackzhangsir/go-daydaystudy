@@ -3,7 +3,8 @@ package main
 //导入依赖包
 import (
 	"fmt"
-	"go-daydaystudy/sugar_demo"
+	//"go-daydaystudy/sugar_demo"
+	"myProject/point_demo"
 )
 
 
@@ -42,8 +43,10 @@ func main() {
 	//json_demo.DeserializeMap()
 
 	//
-	sugar_demo.Sugar("ab","cc" ,"dd")
-	sugar_demo.TypeJuge()
+	//sugar_demo.Sugar("ab","cc" ,"dd")
+	//sugar_demo.TypeJuge()
+
+	point_demo.PointTest()
 
 	
 }
