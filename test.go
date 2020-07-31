@@ -3,8 +3,10 @@ package main
 //导入依赖包
 import (
 	"fmt"
+	"go-daydaystudy/json"
+
 	//"go-daydaystudy/sugar_demo"
-	"myProject/point_demo"
+	//"myProject/point_demo"
 )
 
 
@@ -46,7 +48,16 @@ func main() {
 	//sugar_demo.Sugar("ab","cc" ,"dd")
 	//sugar_demo.TypeJuge()
 
-	point_demo.PointTest()
+	//point_demo.PointTest()
+
+	//go channel_demo.Send()
+	//
+	//go channel_demo.Receive()
+	//time.Sleep(time.Second* 10)
+
+	json.SerialPerson()
+
+
 
 	
 }
