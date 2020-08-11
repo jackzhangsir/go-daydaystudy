@@ -3,8 +3,6 @@ package main
 //导入依赖包
 import (
 	"fmt"
-	"go-daydaystudy/json"
-
 	//"go-daydaystudy/sugar_demo"
 	//"myProject/point_demo"
 )
@@ -55,9 +53,15 @@ func main() {
 	//go channel_demo.Receive()
 	//time.Sleep(time.Second* 10)
 
-	json.SerialPerson()
+	//json.SerialPerson()
 
+	test1 := "0"
+	test2 :='0'
 
+	fmt.Println(test1 == "0")
+	fmt.Println(test2 == '0')
+
+	//fmt.Println(strings.e(test1, test2))
 
 	
 }

@@ -1,0 +1,27 @@
+{
+  "accept_client_id": ["1002001", "1002002", "1002003"],
+  "field": [
+    "dr_inner_id",
+    "dr_name",
+    "dr_sex",
+    "dr_medical_title",
+    "dr_logo",
+    "releated_info.dept_name",
+    "releated_info.org_name"
+  ],
+  "filter": {
+    "relation": "&",
+    "condition": [
+      {
+        "key": "f_dept_id",
+        "opertor": "=",
+        "value": "内分泌科id"
+      },
+      {
+        "key": "f_hosp_id",
+        "opertor": "=",
+        "value": "北大深圳医院id"
+      }
+    ]
+  }
+}

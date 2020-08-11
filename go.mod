@@ -8,4 +8,5 @@ require (
 	github.com/jinzhu/gorm v1.9.14
 	github.com/jmoiron/sqlx v1.2.0
 	github.com/kisielk/errcheck v1.3.0 // indirect
+	github.com/thedevsaddam/gojsonq/v2 v2.5.2 // indirect
 )
